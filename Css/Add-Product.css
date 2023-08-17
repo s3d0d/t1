@@ -1,0 +1,130 @@
+:root{
+    --main-color:#000969;
+    --second-color:#3fa4fd;
+    --black:#222;
+    --white:#fff;
+    --light-bg:#f3f3f3;
+    --border:2px solid black;
+    --box-shadow:0 0px 50px 10px rgb(0,0,0,.3);
+}
+
+*{
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #666;
+    scroll-behavior: smooth;
+}
+
+/*Header*/
+
+.container{
+    width: 550px;
+    height: 550px;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    margin-top: 50px;
+    padding: 30px 60px;
+}
+
+.container .logo{
+    width: 300px;
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+    color: #446cad;
+    position: relative;
+}
+
+.container .input-field{
+    height: 45px;
+    background-color:rgb(240, 240, 240);
+    margin: 15px 0;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    text-align: right;
+    padding-left: 20px;
+    width:90%;
+}
+
+.container .Search_img{
+    margin: 0 12px;
+    text-align: center;
+    color: #666;
+    width: 30px;
+}
+
+.container .input-field input{
+    flex: 5;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    color: #666;
+    height: 100%;
+}
+
+.container #file{
+    display: none;
+}
+
+.container .cover_lb{
+    width: 95%;
+}
+
+.lb_add_img{
+    font-size: 17px;
+    background-color:rgb(240, 240, 240);
+    padding: 4px 0 3px 15px;
+    border-radius: 10px;
+    float: right;
+    border: 2px solid var(--main-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#section{
+    width: 100%;
+    height: 100%;
+    background-color: initial;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+}
+
+.btn_add{
+    font-size: 17px;
+    background-color: var(--main-color);
+    color: var(--white);
+    padding: 7px 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border: 3px solid var(--black);
+}
+
+.btn_add:hover{
+    transform: scale(1.05);
+}
+
+.btn_all_pro{
+    font-size: 18px;
+    font-weight: bold;
+}
+

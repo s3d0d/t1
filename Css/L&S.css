@@ -1,0 +1,42 @@
+*{
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 50px;
+}
+
+/*SignUp*/
+
+.Container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: rgb(100, 100, 111, 0.2) 0px 10px 30px 0px;
+}
+
+.form-group{
+    margin-bottom: 30px;
+}
+
+.btn-primary{
+    float: right;
+}
+
+p {
+    font-weight: bold;
+}
+
+.text-login{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
